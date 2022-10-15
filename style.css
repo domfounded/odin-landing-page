@@ -5,16 +5,19 @@
     display: flex;
     flex-flow: column wrap;
     padding-bottom: 50px;
+    align-items: center;
+    outline: 2px dashed green;
 }
 
-.contain1-0 {
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
-    /* outline: 1px dashed purple; */
+    outline: 1px dashed purple;
     height: 75px;
+    gap: 100px;
 }
 
 h1 {
@@ -39,14 +42,15 @@ h1 {
     display: flex;
     flex-flow: row nowrap;
     /* outline: 2px dashed red; */
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .contain1-1-1 {
-    /* outline: 5px dashed green; */
+    /* outline: 5p x dashed green; */
     display: flex;
     flex-flow: column nowrap;
     gap: 10px;
+    max-width: 500px;
 }
 
 .sign_up1 {
@@ -66,7 +70,7 @@ h1 {
 }
 
 #section2 {
-    outline: 5px dashed green;
+    /* outline: 5px dashed green; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -75,7 +79,7 @@ h1 {
 }
 
 .images {
-    outline: 1px dashed red;
+    /* outline: 1px dashed red; */
     display: flex;
     flex-flow: row nowrap;
     gap: 50px;
@@ -96,4 +100,33 @@ h1 {
 .image-text {
     outline: 1px dashed yellow;
     text-align: center;
+}
+
+#section3 {
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* outline: 1px dashed red; */
+    max-width: 1000px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    max-width: 1000px;
+    align-self: center;
+}
+
+.quote-source {
+    /* align-self: flex-end; */
+    font-weight: bold;
 }
