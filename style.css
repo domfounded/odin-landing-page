@@ -1,29 +1,52 @@
 .section1 {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    flex-flow: column wrap;
 }
 
-h1 {
+.contain1 {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-size: 24px;
     color: #F9FAF8;
     outline: 1px dashed purple;
 }
 
+h1 {
+    outline: 5px dashed green;
+}
+
 .navlist {
     display: flex;
     flex-flow: row wrap;
+    gap: 30px;
     margin: 0;
     padding: 0;
     list-style: none;
     outline: 1px dashed red;
 }
 
-li {
+.navlist li {
     outline: 1px dashed yellow;
 }
 
+.contain2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sign_up1 {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    border-width: 0px;
+    border-radius: 10px;
+    flex-grow: 0;
+}
+
 .img_placeholder {
-    height: 200px;
-    width: auto;
+    max-height: 200px;
+    max-width: auto;
 }
