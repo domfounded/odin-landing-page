@@ -1,9 +1,10 @@
-.section1 {
+#section1 {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 10px;
     display: flex;
     flex-flow: column wrap;
+    padding-bottom: 50px;
 }
 
 .contain1-0 {
@@ -62,4 +63,37 @@ h1 {
     max-height: 200px;
     max-width: auto;
     align-self: flex-start;
+}
+
+#section2 {
+    outline: 5px dashed green;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.images {
+    outline: 1px dashed red;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+}
+
+.image1, .image2, .image3, .image4 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 125px;
+}
+
+#section2 img {
+    width: 125px;
+    height: auto;
+}
+
+.image-text {
+    outline: 1px dashed yellow;
+    text-align: center;
 }
