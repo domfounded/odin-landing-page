@@ -1,0 +1,29 @@
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+h1 {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    outline: 1px dashed purple;
+}
+
+.navlist {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: 1px dashed red;
+}
+
+li {
+    outline: 1px dashed yellow;
+}
+
+.img_placeholder {
+    height: 200px;
+    width: auto;
+}
