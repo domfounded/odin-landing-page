@@ -1,40 +1,51 @@
 .section1 {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 10px;
     display: flex;
     flex-flow: column wrap;
 }
 
-.contain1 {
+.contain1-0 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
-    outline: 1px dashed purple;
+    /* outline: 1px dashed purple; */
+    height: 75px;
 }
 
 h1 {
-    outline: 5px dashed green;
+    /* outline: 5px dashed green; */
 }
 
 .navlist {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     gap: 30px;
     margin: 0;
     padding: 0;
     list-style: none;
-    outline: 1px dashed red;
+    /* outline: 1px dashed red; */
 }
 
 .navlist li {
-    outline: 1px dashed yellow;
+    /* outline: 1px dashed yellow; */
 }
 
-.contain2 {
+.contain1-1 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    /* outline: 2px dashed red; */
+    justify-content: space-around;
+}
+
+.contain1-1-1 {
+    /* outline: 5px dashed green; */
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
 }
 
 .sign_up1 {
@@ -44,9 +55,11 @@ h1 {
     border-width: 0px;
     border-radius: 10px;
     flex-grow: 0;
+    align-self: flex-start;
 }
 
 .img_placeholder {
     max-height: 200px;
     max-width: auto;
+    align-self: flex-start;
 }
