@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 #section1 {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -6,7 +10,7 @@
     flex-flow: column wrap;
     padding-bottom: 50px;
     align-items: center;
-    outline: 2px dashed green;
+    /* outline: 2px dashed green; */
 }
 
 .header {
@@ -15,7 +19,7 @@
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
-    outline: 1px dashed purple;
+    /* outline: 1px dashed purple; */
     height: 75px;
     gap: 100px;
 }
@@ -53,13 +57,12 @@ h1 {
     max-width: 500px;
 }
 
-.sign_up1 {
+button {
     background-color: #3882F6;
     color: white;
     padding: 10px 20px;
     border-width: 0px;
     border-radius: 10px;
-    flex-grow: 0;
     align-self: flex-start;
 }
 
@@ -129,4 +132,54 @@ h1 {
 .quote-source {
     /* align-self: flex-end; */
     font-weight: bold;
+}
+
+#section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+
+.blue-box {
+    /* outline: 2px dashed green; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.blue-box .text {
+    /* outline: 2px dashed red; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-start;
+    
+}
+
+.blue-box .text :first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.blue-box button{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 35px;
+}
+
+footer {
+    color: white;
+    font-weight: lighter;
 }
